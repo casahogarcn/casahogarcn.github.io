@@ -81,6 +81,7 @@ p {
     transition: transform 0.15s, box-shadow 0.15s;
     cursor: pointer;
     min-width: 180px;
+    margin-bottom: 10px;
 }
 
 .boton a {
@@ -136,4 +137,12 @@ p {
 header, main {
     opacity: 1;
     transition: opacity 0.8s;
+}
+footer {
+    background: #f8fafc;
+    padding: 20px 0;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
 }
